@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Subisna Jena | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #2b1055, #7597de);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-top: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin: 30px 0 10px;
+      text-align: center;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 10px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    section {
+      padding: 40px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .skills span {
+      background-color: white;
+      color: #2b1055;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.3);
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #aaddff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Home -->
+  <header>
+    <img src="https://via.placeholder.com/150" alt="Your Photo" />
+    <h1>Subisna Jena</h1>
+    <p>Web Developer | MCA Student | Creative Coder</p>
+  </header>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am currently pursuing my MCA, having completed my BSc in Computer Science from Ramadevi University. I am passionate about web development, crafting interactive UI, and building creative web applications using HTML, CSS, JavaScript, and React. I'm also an enthusiast in sports, crafting, and dancing.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Bootstrap</span>
+      <span>GitHub</span>
+      <span>VS Code</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>
+      <strong>✔ Stopwatch App:</strong> A web-based timer using JS with lap & reset.<br/>
+      <strong>✔ Tic-Tac-Toe Game:</strong> Classic game with winning logic using pure JS.<br/>
+      <strong>✔ Amazon Clone:</strong> Multi-page site with login, cart, slider, and rating system.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <p>
+      🎓 MCA – Present<br/>
+      🎓 BSc Computer Science – Ramadevi University, Odisha
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      📧 Email: <a href="mailto:youremail@example.com">youremail@example.com</a><br/>
+      🌐 GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a><br/>
+      💼 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Subisna Jena. All rights reserved.
+  </footer>
+
+</body>
+</html>
